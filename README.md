@@ -8,3 +8,6 @@ create a site.yml file
 mkdir roles
 cd roles
 ansible-galaxy init jenkins
+
+++ in jenkins file
+We have included all the jenkins tasks here. Starting with downloading java, setting the correct java version, downloading jenkins, importing GPG key, installing and configuring Jenkins and finally starting the jenkins service and enabling it to start on reboot.
